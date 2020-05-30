@@ -1,1 +1,1 @@
-web: gunicorn python_REST.wsgi
+web: gunicorn leadmanager.wsgi
