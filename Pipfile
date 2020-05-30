@@ -13,6 +13,7 @@ django-rest-knox = "*"
 mysqlclient = "*"
 python-decouple = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
