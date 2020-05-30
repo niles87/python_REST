@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+mysqlclient = "*"
+python-decouple = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.8"
