@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('BUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['python-leads.herokuapp.com']
 
 # Application definition
 
